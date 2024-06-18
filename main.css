@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+/* Main Container */
+.main-container{
+ background-color: #D5CFFF;
+ display: flex;
+ width: 600px;
+ flex-direction: column;
+ align-items: center;
+ border-radius: 10px;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-bottom: 70px;
+ justify-content: space-between;
+}
+
+/* To-do-list-styling */
+.main-title{
+    color: black;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* Container-1 styling */
+.container-1{
+    background-color: #8D6ABA;
+    padding: 50px;
+    display: flex;
+    width: 465px;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+/* Form input styling */
+.form-style{
+    padding-left: 20px;
+}
+
+/* Input block styling */
+.input-block-style{
+    border:none ;
+    padding: 5px;
+}
+
+/* text label styling */
+#text-label{
+    color: white;
+    font-size: small;
+}
+
+/* Button div styling */
+.button-div{
+    padding-top: 15px;
+}
+
+
+/* Generic button styling */
+button{
+    color: white;
+}
+
+/* Add Task styling */
+#button-styling{
+    background-color: #7E0183;
+    padding: 9px 20px;
+    text-align: center;
+    border: none;
+    font-size: 10px;
+}
+
+/* Container 2 styling */
+.container-2{
+    width: 445px;
+    margin-top: 15px;
+    padding: 60px;
+    border-radius: 5px;
+    background-color: #8D6ABA;
+}
+
+/* Text input container */
+.text-input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Text-input-styling */
+.text-input{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #7E0183;
+    justify-content: space-between;
+}
+
+/* Text styling */
+p{
+    font-size: 12px;
+    color: white;
+}
+ 
+/* Button remove styling */
+.text-input > button{
+    background-color: #2E1018;
+    border: none;
+    padding: 5px 12px;
+    text-align: center;
+    font-size: 10px;
+}
